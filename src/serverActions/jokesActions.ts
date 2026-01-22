@@ -2,7 +2,6 @@ import { createServerFn } from "@tanstack/react-start";
 import * as fs from 'node:fs';
 import { v4 as uuidv4 } from 'uuid';
 import type { Joke, JokesData } from '../types/';
-import { i } from "node_modules/vite/dist/node/chunks/moduleRunnerTransport";
 
 const JOKES_FILE = 'src/data/jokes.json';
 
